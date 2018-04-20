@@ -14,6 +14,8 @@
 		FC74A2A920899FBD00D58A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC74A2A720899FBD00D58A14 /* LaunchScreen.storyboard */; };
 		FC74A2B12089CFC900D58A14 /* HarunaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74A2B02089CFC900D58A14 /* HarunaViewController.swift */; };
 		FC74A2B32089CFE100D58A14 /* YukiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74A2B22089CFE100D58A14 /* YukiViewController.swift */; };
+		FC74A2B52089D44E00D58A14 /* HarunaViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC74A2B42089D44E00D58A14 /* HarunaViewController.storyboard */; };
+		FC74A2B72089D47000D58A14 /* YukiViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC74A2B62089D47000D58A14 /* YukiViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FC74A2AA20899FBD00D58A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC74A2B02089CFC900D58A14 /* HarunaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarunaViewController.swift; sourceTree = "<group>"; };
 		FC74A2B22089CFE100D58A14 /* YukiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YukiViewController.swift; sourceTree = "<group>"; };
+		FC74A2B42089D44E00D58A14 /* HarunaViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HarunaViewController.storyboard; sourceTree = "<group>"; };
+		FC74A2B62089D47000D58A14 /* YukiViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YukiViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,9 @@
 				FC74A2A720899FBD00D58A14 /* LaunchScreen.storyboard */,
 				FC74A2AA20899FBD00D58A14 /* Info.plist */,
 				FC74A2B02089CFC900D58A14 /* HarunaViewController.swift */,
+				FC74A2B42089D44E00D58A14 /* HarunaViewController.storyboard */,
 				FC74A2B22089CFE100D58A14 /* YukiViewController.swift */,
+				FC74A2B62089D47000D58A14 /* YukiViewController.storyboard */,
 			);
 			path = ShumiZaitaku_swift;
 			sourceTree = "<group>";
@@ -129,6 +135,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC74A2B52089D44E00D58A14 /* HarunaViewController.storyboard in Resources */,
+				FC74A2B72089D47000D58A14 /* YukiViewController.storyboard in Resources */,
 				FC74A2A920899FBD00D58A14 /* LaunchScreen.storyboard in Resources */,
 				FC74A2A620899FBD00D58A14 /* Assets.xcassets in Resources */,
 				FC74A2A420899FBA00D58A14 /* Main.storyboard in Resources */,
@@ -289,13 +297,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SXL9U2ZT42;
+				DEVELOPMENT_TEAM = AG2VJP242Z;
 				INFOPLIST_FILE = ShumiZaitaku_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.custardpudding.ShumiZaitaku-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.custardpudding.ShumiZaitaku-swift2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,13 +313,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SXL9U2ZT42;
+				DEVELOPMENT_TEAM = AG2VJP242Z;
 				INFOPLIST_FILE = ShumiZaitaku_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.custardpudding.ShumiZaitaku-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.custardpudding.ShumiZaitaku-swift2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

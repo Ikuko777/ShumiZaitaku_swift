@@ -22,9 +22,6 @@
                                 <rect key="frame" x="172" y="349" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="郁子"/>
-                                <connections>
-                                    <segue destination="VYy-dE-ISm" kind="show" id="Prn-Eg-D41"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsS-bn-d0W">
                                 <rect key="frame" x="172" y="195" width="31" height="30"/>
@@ -32,7 +29,6 @@
                                 <state key="normal" title="榛名"/>
                                 <connections>
                                     <action selector="ButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rdz-ea-tNf"/>
-                                    <segue destination="75K-fM-WZY" kind="show" id="vTt-qG-lGM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -47,58 +43,5 @@
             </objects>
             <point key="canvasLocation" x="-103" y="-65"/>
         </scene>
-        <!--Yuki View Controller-->
-        <scene sceneID="DKM-gc-OFF">
-            <objects>
-                <viewController id="VYy-dE-ISm" customClass="YukiViewController" customModule="ShumiZaitaku_swift" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="06z-D8-xsm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITz-QF-UJI">
-                                <rect key="frame" x="174" y="265" width="62" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="戻りたい"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="7hZ-MK-N4h"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <viewLayoutGuide key="safeArea" id="AwQ-92-zbT"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ebR-Lt-gZP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="796" y="464"/>
-        </scene>
-        <!--Haruna View Controller-->
-        <scene sceneID="9RW-oP-5wZ">
-            <objects>
-                <viewController id="75K-fM-WZY" customClass="HarunaViewController" customModule="ShumiZaitaku_swift" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9J5-2b-H9b">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HJr-pd-MBs">
-                                <rect key="frame" x="172" y="290" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="もどる"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="IOb-CZ-zpx"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="bxJ-a8-N21"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CDt-vi-Wd5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="744" y="-218"/>
-        </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="7hZ-MK-N4h"/>
-    </inferredMetricsTieBreakers>
 </document>

@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     @IBOutlet var HarunaButton: UIButton!
     @IBAction func ButtonTapped(_ sender: Any) {
         print("榛名タッチされたよ")
+        
     }
     
 
