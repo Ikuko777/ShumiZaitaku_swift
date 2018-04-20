@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2AA74392089E74B00C9DD2A /* IMG_5253.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F2AA74382089E74B00C9DD2A /* IMG_5253.JPG */; };
 		FC74A29F20899FBA00D58A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74A29E20899FBA00D58A14 /* AppDelegate.swift */; };
 		FC74A2A120899FBA00D58A14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74A2A020899FBA00D58A14 /* ViewController.swift */; };
 		FC74A2A420899FBA00D58A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC74A2A220899FBA00D58A14 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2AA74382089E74B00C9DD2A /* IMG_5253.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5253.JPG; sourceTree = "<group>"; };
 		FC74A29B20899FBA00D58A14 /* ShumiZaitaku_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShumiZaitaku_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC74A29E20899FBA00D58A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC74A2A020899FBA00D58A14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F2AA74372089E71100C9DD2A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F2AA74382089E74B00C9DD2A /* IMG_5253.JPG */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		FC74A29220899FBA00D58A14 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		FC74A29D20899FBA00D58A14 /* ShumiZaitaku_swift */ = {
 			isa = PBXGroup;
 			children = (
+				F2AA74372089E71100C9DD2A /* Images */,
 				FC74A29E20899FBA00D58A14 /* AppDelegate.swift */,
 				FC74A2A020899FBA00D58A14 /* ViewController.swift */,
 				FC74A2A220899FBA00D58A14 /* Main.storyboard */,
@@ -137,6 +148,7 @@
 			files = (
 				FC74A2B52089D44E00D58A14 /* HarunaViewController.storyboard in Resources */,
 				FC74A2B72089D47000D58A14 /* YukiViewController.storyboard in Resources */,
+				F2AA74392089E74B00C9DD2A /* IMG_5253.JPG in Resources */,
 				FC74A2A920899FBD00D58A14 /* LaunchScreen.storyboard in Resources */,
 				FC74A2A620899FBD00D58A14 /* Assets.xcassets in Resources */,
 				FC74A2A420899FBA00D58A14 /* Main.storyboard in Resources */,
@@ -299,12 +311,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AG2VJP242Z;
 				INFOPLIST_FILE = ShumiZaitaku_swift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.custardpudding.ShumiZaitaku-swift2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haruna.ShumiZaitaku-swift2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -315,12 +327,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AG2VJP242Z;
 				INFOPLIST_FILE = ShumiZaitaku_swift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.custardpudding.ShumiZaitaku-swift2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haruna.ShumiZaitaku-swift2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
