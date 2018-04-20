@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,8 @@
 		FC74A2A420899FBA00D58A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC74A2A220899FBA00D58A14 /* Main.storyboard */; };
 		FC74A2A620899FBD00D58A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC74A2A520899FBD00D58A14 /* Assets.xcassets */; };
 		FC74A2A920899FBD00D58A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC74A2A720899FBD00D58A14 /* LaunchScreen.storyboard */; };
+		FC74A2B12089CFC900D58A14 /* HarunaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74A2B02089CFC900D58A14 /* HarunaViewController.swift */; };
+		FC74A2B32089CFE100D58A14 /* YukiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74A2B22089CFE100D58A14 /* YukiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FC74A2A520899FBD00D58A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC74A2A820899FBD00D58A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC74A2AA20899FBD00D58A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC74A2B02089CFC900D58A14 /* HarunaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarunaViewController.swift; sourceTree = "<group>"; };
+		FC74A2B22089CFE100D58A14 /* YukiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YukiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FC74A2A520899FBD00D58A14 /* Assets.xcassets */,
 				FC74A2A720899FBD00D58A14 /* LaunchScreen.storyboard */,
 				FC74A2AA20899FBD00D58A14 /* Info.plist */,
+				FC74A2B02089CFC900D58A14 /* HarunaViewController.swift */,
+				FC74A2B22089CFE100D58A14 /* YukiViewController.swift */,
 			);
 			path = ShumiZaitaku_swift;
 			sourceTree = "<group>";
@@ -96,11 +102,12 @@
 				TargetAttributes = {
 					FC74A29A20899FBA00D58A14 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = FC74A29620899FBA00D58A14 /* Build configuration list for PBXProject "ShumiZaitaku_swift" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -135,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC74A2B32089CFE100D58A14 /* YukiViewController.swift in Sources */,
+				FC74A2B12089CFC900D58A14 /* HarunaViewController.swift in Sources */,
 				FC74A2A120899FBA00D58A14 /* ViewController.swift in Sources */,
 				FC74A29F20899FBA00D58A14 /* AppDelegate.swift in Sources */,
 			);
@@ -270,8 +279,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -283,10 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SXL9U2ZT42;
 				INFOPLIST_FILE = ShumiZaitaku_swift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.custardpudding.ShumiZaitaku-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -301,10 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SXL9U2ZT42;
 				INFOPLIST_FILE = ShumiZaitaku_swift/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.custardpudding.ShumiZaitaku-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
