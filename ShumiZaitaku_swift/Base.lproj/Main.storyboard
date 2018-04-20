@@ -24,7 +24,10 @@
                                     <constraint firstAttribute="height" constant="71" id="NZb-n9-cxX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                <state key="normal" title="郁子"/>
+                                <state key="normal" title="優輝"/>
+                                <connections>
+                                    <action selector="yukiButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gbd-Qf-ang"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsS-bn-d0W">
                                 <rect key="frame" x="335" y="898" width="99" height="71"/>
@@ -35,7 +38,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="49"/>
                                 <state key="normal" title="榛名"/>
                                 <connections>
-                                    <action selector="ButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rdz-ea-tNf"/>
+                                    <action selector="harunaButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nbn-P8-tPR"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_5253.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="u9K-1p-PS2">
@@ -56,7 +59,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="HarunaButton" destination="jsS-bn-d0W" id="6c9-aS-gU7"/>
+                        <outlet property="harunaButton" destination="jsS-bn-d0W" id="uK9-A7-ugz"/>
+                        <outlet property="yukiButton" destination="Lp1-bT-wn7" id="eJx-U3-uek"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

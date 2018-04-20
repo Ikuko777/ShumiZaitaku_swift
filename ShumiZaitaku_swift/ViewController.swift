@@ -20,10 +20,22 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBOutlet var HarunaButton: UIButton!
-    @IBAction func ButtonTapped(_ sender: Any) {
+    @IBOutlet var harunaButton: UIButton!
+    @IBAction func harunaButtonTapped(_ sender: Any) {
         print("榛名タッチされたよ")
         
+        let storyboard: UIStoryboard = UIStoryboard(name: "HarunaViewController", bundle: nil)
+        let next: UIViewController = storyboard.instantiateInitialViewController()!
+        present(next, animated: true, completion: nil)
+    }
+    
+    @IBOutlet var yukiButton: UIButton!
+    @IBAction func yukiButtonTapped(_ sender: Any) {
+        print("優輝タッチされたよ")
+        
+        let storyboard: UIStoryboard = UIStoryboard(name: "YukiViewController", bundle: nil)
+        let next: UIViewController = storyboard.instantiateInitialViewController()!
+        present(next, animated: true, completion: nil)
     }
     
 

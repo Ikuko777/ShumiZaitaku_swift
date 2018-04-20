@@ -22,11 +22,17 @@
                                 <rect key="frame" x="174" y="265" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="戻りたい"/>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="PcE-nm-39v" eventType="touchUpInside" id="hOt-hd-nfZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="dXn-vl-xnM"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="GOU-GE-6CU" id="USy-Vg-a0h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mAB-xD-gbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
