@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,24 +15,44 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ShumiZaitaku_swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lp1-bT-wn7">
-                                <rect key="frame" x="172" y="349" width="31" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lp1-bT-wn7">
+                                <rect key="frame" x="335" y="808" width="99" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="NZb-n9-cxX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
                                 <state key="normal" title="郁子"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsS-bn-d0W">
-                                <rect key="frame" x="172" y="195" width="31" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsS-bn-d0W">
+                                <rect key="frame" x="335" y="898" width="99" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="99" id="N5c-D4-mIz"/>
+                                    <constraint firstAttribute="height" constant="71" id="dI9-VW-JWA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
                                 <state key="normal" title="榛名"/>
                                 <connections>
                                     <action selector="ButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rdz-ea-tNf"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_5253.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="u9K-1p-PS2">
+                                <rect key="frame" x="10" y="30" width="748" height="768"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Lp1-bT-wn7" firstAttribute="top" secondItem="u9K-1p-PS2" secondAttribute="bottom" constant="10" id="DQj-Ky-yj6"/>
+                            <constraint firstItem="Lp1-bT-wn7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jks-gJ-BeJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jsS-bn-d0W" secondAttribute="bottom" constant="55" id="W0K-ny-eTf"/>
+                            <constraint firstItem="jsS-bn-d0W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cKN-8e-OMB"/>
+                            <constraint firstItem="jsS-bn-d0W" firstAttribute="top" secondItem="Lp1-bT-wn7" secondAttribute="bottom" constant="19" id="cLw-kf-jtz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="u9K-1p-PS2" secondAttribute="trailing" constant="10" id="igc-RR-flq"/>
+                            <constraint firstItem="u9K-1p-PS2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="kB1-ZO-gKL"/>
+                            <constraint firstItem="u9K-1p-PS2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="yRc-m6-wV4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -41,7 +61,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-103" y="-65"/>
+            <point key="canvasLocation" x="-103.2" y="-65.217391304347828"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IMG_5253.JPG" width="768" height="768"/>
+    </resources>
 </document>
